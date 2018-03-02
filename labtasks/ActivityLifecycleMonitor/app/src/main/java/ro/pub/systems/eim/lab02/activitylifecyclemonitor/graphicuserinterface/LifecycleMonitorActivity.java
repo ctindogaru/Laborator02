@@ -113,7 +113,7 @@ public class LifecycleMonitorActivity extends AppCompatActivity {
         if (checkBox.isChecked()) {
             savedInstanceState.putString("username_text", usernameEditText.getText().toString());
             savedInstanceState.putString("password_text", passwordEditText.getText().toString());
-            savedInstanceState.putBoolean("remember_me", checkBox.isChecked());
+            savedInstanceState.putBoolean("remember_me", true);
         }
     }
 
